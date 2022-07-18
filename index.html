@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+
+  <!-- Prism -->
+  <link rel="stylesheet" href="https://mdbgo.io/mikolaj-smolenski/mdb5-demo-pro/dev/css/new-prism.css" />
+  <!-- Custom styles -->
+  <style>
+    main {
+      padding-left: 240px;
+    }
+  </style>
+</head>
+
+<body data-mdb-spy="scroll" data-mdb-target="#scrollspy1" data-mdb-offset="1" class="scrollspy-example">
+  <!-- YOUR WORK HERE -->
+  <main>
+    <div class="container my-5">
+      <div class="row">
+        <!-- Left column -->
+        <div class="col-md-10 mb-4 mb-md-0">
+          <!--Section: Docs content-->
+          <section>
+            <!--Section: Introduction-->
+            <section id="section-introduction">
+              <!-- Main title -->
+              <h2 class="h1 fw-bold">Inline list</h2>
+
+              <!-- Seo title -->
+              <h1 class="h6">Bootstrap 5 Inline list component</h1>
+
+              <div class="row">
+                <!-- Description -->
+                <p class="my-3">
+                  Responsive Inline list built with the latest Bootstrap 5. Inline lists are responsive components for displaying a series of content. Many examples and tutorials. 
+                </p>
+              </div>
+            </section>
+            <!--Section: Introduction-->
+
+            <hr class="my-5" />
+
+            <!--Section: basic example-->
+            <section id="section-basic-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">Basic example</h2>
+
+              <!--Description-->
+              <p>
+                Here's a basic example of inline list. Add <code>.list-inline</code> to change the layout of list to inline.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 text-center w-100 rounded-top">
+
+                <div class="m-4">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Item 1</li>
+                    <li class="list-inline-item">Item 2</li>
+                    <li class="list-inline-item">Item 3</li>
+                    <li class="list-inline-item">Item 4</li>
+                    <li class="list-inline-item">Item 5</li>
+                  </ul>
+                </div>
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#basic-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="basic-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <ul class="list-inline">
+                      <li class="list-inline-item">Item 1</li>
+                      <li class="list-inline-item">Item 2</li>
+                      <li class="list-inline-item">Item 3</li>
+                      <li class="list-inline-item">Item 4</li>
+                      <li class="list-inline-item">Item 5</li>
+                    </ul>
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: basic example-->
+
+            <!--Section: with bullets example-->
+            <section id="section-with-bullets-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">With bullets</h2>
+
+              <!--Description-->
+              <p>
+                To add bullets, you can use <code>&bull</code>; or you can also use <a href="https://mdbootstrap.com/docs/standard/content-styles/icons/">circle icon</a>.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 text-center w-100 rounded-top">
+
+                <div class="m-4">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">&bull; Item 1</li>
+                    <li class="list-inline-item">&bull; Item 2</li>
+                    <li class="list-inline-item">&bull; Item 3</li>
+                    <li class="list-inline-item">&bull; Item 4</li>
+                    <li class="list-inline-item">&bull; Item 5</li>
+                  </ul>
+                </div>
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#with-bullets-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="with-bullets-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <ul class="list-inline">
+                      <li class="list-inline-item">&bull; Item 1</li>
+                      <li class="list-inline-item">&bull; Item 2</li>
+                      <li class="list-inline-item">&bull; Item 3</li>
+                      <li class="list-inline-item">&bull; Item 4</li>
+                      <li class="list-inline-item">&bull; Item 5</li>
+                    </ul>
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: with bullets example-->
+
+            <!--Section: with separators example-->
+            <section id="section-with-separators-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">With separators</h2>
+
+              <!--Description-->
+              <p>
+                To add separators, you have to add some CSS styles.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 text-center w-100 rounded-top">
+
+                <style>
+                  #list-with-separators {
+                    display:block;
+                  }
+                  #list-with-separators li {
+                    display:inline-block;
+                  }
+                  #list-with-separators li:after {
+                    content:'|'; 
+                    margin:0 10px;
+                  }
+                </style>
+
+                <div class="m-4">
+                  <ul class="list-inline" id="list-with-separators">
+                    <li class="list-inline-item">Item 1</li>
+                    <li class="list-inline-item">Item 2</li>
+                    <li class="list-inline-item">Item 3</li>
+                    <li class="list-inline-item">Item 4</li>
+                    <li class="list-inline-item">Item 5</li>
+                  </ul>
+                </div>
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#with-separators-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="with-separators-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <ul class="list-inline">
+                      <li class="list-inline-item">Item 1</li>
+                      <li class="list-inline-item">Item 2</li>
+                      <li class="list-inline-item">Item 3</li>
+                      <li class="list-inline-item">Item 4</li>
+                      <li class="list-inline-item">Item 5</li>
+                    </ul>
+
+                  </code>
+
+                  <code data-lang="css" data-name="CSS">
+
+                    .list-inline {
+                      display:block;
+                    }
+                    .list-inline li {
+                      display:inline-block;
+                    }
+                    .list-inline li:after {
+                      content:'|'; 
+                      margin:0 10px;
+                    }
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: with separators example-->
+
+            <!--Section: align right example-->
+            <section id="section-align-right-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">Align right</h2>
+
+              <!--Description-->
+              <p>
+                To align items right, you have to add <code>.text-end</code> to the <code>ul</code> element. You'll find more information about text alignment <a href="https://mdbootstrap.com/docs/standard/utilities/text/#section-text-alignment">here</a>.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 w-100 rounded-top">
+
+                <div class="m-4">
+                  <ul class="list-inline text-end">
+                    <li class="list-inline-item">Item 1</li>
+                    <li class="list-inline-item">Item 2</li>
+                    <li class="list-inline-item">Item 3</li>
+                    <li class="list-inline-item">Item 4</li>
+                    <li class="list-inline-item">Item 5</li>
+                  </ul>
+                </div>
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#align-right-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="align-right-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <ul class="list-inline text-end">
+                      <li class="list-inline-item">Item 1</li>
+                      <li class="list-inline-item">Item 2</li>
+                      <li class="list-inline-item">Item 3</li>
+                      <li class="list-inline-item">Item 4</li>
+                      <li class="list-inline-item">Item 5</li>
+                    </ul>
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: align right example-->
+
+            <!--Section: spacing example-->
+            <section id="section-spacing-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">Spacing</h2>
+
+              <!--Description-->
+              <p>
+                To increase space between list item, you have to add <a href="https://mdbootstrap.com/docs/standard/utilities/spacing/">margin values</a> to elements.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 text-center w-100 rounded-top">
+
+                <div class="m-4">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-4">Item 1</li>
+                    <li class="list-inline-item me-4">Item 2</li>
+                    <li class="list-inline-item me-4">Item 3</li>
+                    <li class="list-inline-item me-4">Item 4</li>
+                    <li class="list-inline-item me-4">Item 5</li>
+                  </ul>
+                </div>
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#spacing-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="spacing-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <ul class="list-inline">
+                      <li class="list-inline-item me-4">Item 1</li>
+                      <li class="list-inline-item me-4">Item 2</li>
+                      <li class="list-inline-item me-4">Item 3</li>
+                      <li class="list-inline-item me-4">Item 4</li>
+                      <li class="list-inline-item me-4">Item 5</li>
+                    </ul>
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: spacing example-->
+
+            <!--Section: menu example-->
+            <section id="section-menu-example">
+              <!-- Section title -->
+              <h2 class="my-5 mb-2">Menu</h2>
+
+              <!--Description-->
+              <p>
+                Here's example of menu with inline items. You'll find more examples <a href="https://mdbootstrap.com/docs/standard/navigation/navbar/">here</a>.
+              </p>
+
+              <!-- Section: Demo -->
+              <section class="border p-4 text-center w-100 rounded-top">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <!-- Container wrapper -->
+                  <div class="container-fluid">
+                    <!-- Toggle button -->
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <i class="fas fa-bars"></i>
+                    </button>
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <!-- Navbar brand -->
+                      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img
+                          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                          height="15"
+                          alt="MDB Logo"
+                          loading="lazy"
+                        />
+                      </a>
+                      <!-- Left links -->
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Projects</a>
+                        </li>
+                      </ul>
+                      <!-- Left links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+
+                    <!-- Right elements -->
+                    <div class="d-flex align-items-center">
+                      <!-- Icon -->
+                      <a class="text-reset me-3" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                      </a>
+
+                      <!-- Notifications -->
+                      <div class="dropdown">
+                        <a
+                          class="text-reset me-3 dropdown-toggle hidden-arrow"
+                          href="#"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-mdb-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <i class="fas fa-bell"></i>
+                          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">Some news</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another news</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- Avatar -->
+                      <div class="dropdown">
+                        <a
+                          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                          href="#"
+                          id="navbarDropdownMenuAvatar"
+                          role="button"
+                          data-mdb-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                            class="rounded-circle"
+                            height="25"
+                            alt="Black and White Portrait of a Man"
+                            loading="lazy"
+                          />
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end"
+                          aria-labelledby="navbarDropdownMenuAvatar"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- Right elements -->
+                  </div>
+                  <!-- Container wrapper -->
+                </nav>
+                <!-- Navbar -->
+
+              </section>
+
+              <div class="p-4 text-center border border-top-0 mobile-hidden rounded-bottom">
+                <a class="btn btn-link px-3 collapsed" data-mdb-toggle="collapse" href="#menu-example" role="button"
+                  aria-expanded="false" aria-controls="example9" data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-code me-md-2"></i>
+                  <span class="d-none d-md-inline-block">
+                    Show code
+                  </span>
+                </a>
+
+                <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
+                  <i class="fas fa-file-code me-md-2 pe-none"></i>
+                  <span class="d-none d-md-inline-block export-to-snippet pe-none">
+                    Edit in sandbox
+                  </span>
+                </a>
+              </div>
+
+              <!-- Section: Demo -->
+
+              <!-- Section: Code -->
+              <section class="my-3 collapse" id="menu-example">
+
+                <mdbsnippet>
+                  <!-- HTML -->
+                  <code data-lang="html" data-name="HTML">
+
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <!-- Container wrapper -->
+                      <div class="container-fluid">
+                        <!-- Toggle button -->
+                        <button
+                          class="navbar-toggler"
+                          type="button"
+                          data-mdb-toggle="collapse"
+                          data-mdb-target="#navbarSupportedContent"
+                          aria-controls="navbarSupportedContent"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <i class="fas fa-bars"></i>
+                        </button>
+
+                        <!-- Collapsible wrapper -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <!-- Navbar brand -->
+                          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                              height="15"
+                              alt="MDB Logo"
+                              loading="lazy"
+                            />
+                          </a>
+                          <!-- Left links -->
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Projects</a>
+                            </li>
+                          </ul>
+                          <!-- Left links -->
+                        </div>
+                        <!-- Collapsible wrapper -->
+
+                        <!-- Right elements -->
+                        <div class="d-flex align-items-center">
+                          <!-- Icon -->
+                          <a class="text-reset me-3" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+
+                          <!-- Notifications -->
+                          <div class="dropdown">
+                            <a
+                              class="text-reset me-3 dropdown-toggle hidden-arrow"
+                              href="#"
+                              id="navbarDropdownMenuLink"
+                              role="button"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              <i class="fas fa-bell"></i>
+                              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                            </a>
+                            <ul
+                              class="dropdown-menu dropdown-menu-end"
+                              aria-labelledby="navbarDropdownMenuLink"
+                            >
+                              <li>
+                                <a class="dropdown-item" href="#">Some news</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Another news</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- Avatar -->
+                          <div class="dropdown">
+                            <a
+                              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                              href="#"
+                              id="navbarDropdownMenuAvatar"
+                              role="button"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                class="rounded-circle"
+                                height="25"
+                                alt="Black and White Portrait of a Man"
+                                loading="lazy"
+                              />
+                            </a>
+                            <ul
+                              class="dropdown-menu dropdown-menu-end"
+                              aria-labelledby="navbarDropdownMenuAvatar"
+                            >
+                              <li>
+                                <a class="dropdown-item" href="#">My profile</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Settings</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- Right elements -->
+                      </div>
+                      <!-- Container wrapper -->
+                    </nav>
+                    <!-- Navbar -->
+
+                  </code>
+
+                </mdbsnippet>
+
+              </section>
+              <!-- Section: Code -->
+
+            </section>
+            <!--Section: spacing example-->
+
+          </section>
+          <!--Section: Docs content-->
+
+          <hr class="my-5">
+
+          <section id="section-related-resources">
+
+            <style>
+              .btn-tag {
+                background-color: #ECEFF1;
+                text-transform: capitalize !important;
+                margin-bottom: 10px;
+                box-shadow: none;
+              }
+                  
+              .btn-tag:hover {
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
+              }
+            </style>
+
+            <h2>Related resources</h2>
+
+            <!--Chips with links-->
+            <div class="justify-content-start text-start w-100 my-5">
+
+              <a target="_blank" href="https://mdbootstrap.com/docs/standard/components/list-group/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                List group</a>
+
+              <a href="https://mdbootstrap.com/docs/standard/content-styles/icons/" class="btn btn-tag btn-rounded" data-mdb-close="true">
+                  Icons</a>
+              
+              <a href="https://mdbootstrap.com/docs/standard/utilities/text/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                Text</a>
+
+              <a href="https://mdbootstrap.com/docs/standard/utilities/spacing/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                Spacing</a>
+
+              <a href="https://mdbootstrap.com/docs/standard/navigation/navbar/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                Navbar</a>
+
+              <a href="https://mdbootstrap.com/how-to/bootstrap/text-responsive/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                How To Make Text Responsive In Bootstrap</a>
+
+              <a href="https://mdbootstrap.com/how-to/bootstrap/text-center/" class="btn btn-tag btn-rounded" data-mdb-close="true"> 
+                  How To Center Text In Bootstrap</a>
+
+              <a target="_blank" href="https://mdbootstrap.com/docs/standard/layout/grid/" class="btn btn-tag btn-rounded" data-mdb-close="true"> 
+                  Grid system</a>
+
+              <a href="https://mdbootstrap.com/docs/standard/layout/flexbox/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                Flexbox</a>
+
+              <a href="https://mdbootstrap.com/docs/standard/layout/horizontal-alignment/" class="btn btn-tag btn-rounded"
+                data-mdb-close="true">
+                Horizontal alignment</a>
+
+            </div>
+
+          </section>
+
+        </div>
+        <!-- Left column -->
+
+        <!-- Right column -->
+        <div class="col-md-2 mb-4 mb-md-0">
+          <style>
+            /* Styles required only for the example above */
+            .scrollspy-example {
+              position: relative;
+              height: 200px;
+              overflow: auto;
+            }
+          </style>
+          <!-- Scrollspy -->
+          <div id="scrollspy1" class="sticky-top">
+            <ul class="nav flex-column nav-pills menu-sidebar">
+              <!-- Link -->
+              <li class="nav-item">
+                <a class="nav-link active" href="#section-introduction">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-basic-example">Basic example</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-with-bullets-example">With bullets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-with-separators-example">With separators</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-align-right-example">Align right</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-spacing-example">Spacing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-menu-example">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-related-resources">Related resources</a>
+              </li>
+
+              <!-- Link -->
+            </ul>
+          </div>
+          <!-- Scrollspy -->
+        </div>
+        <!-- Right column -->
+      </div>
+    </div>
+  </main>
+  <!-- YOUR WORK HERE -->
+
+  <!-- Prism -->
+  <script type="text/javascript" src="https://mdbgo.io/mikolaj-smolenski/mdb5-demo-pro/dev/js/new-prism.js"></script>
+  <script type="text/javascript"
+    src="https://mdbgo.io/mikolaj-smolenski/mdb5-demo-pro/dev/js/dist/mdbsnippet.min.js"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
