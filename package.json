@@ -1,0 +1,29 @@
+{
+  "name": "@mdbootstrap/bootstrap-inline-list",
+  "version": "1.0.0",
+  "description": "Responsive Inline list built with the latest Bootstrap 5. Inline lists are responsive components for displaying a series of content. Many examples and tutorials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iprzybysz/bootstrap-inline-list.git"
+  },
+  "keywords": [
+    "inline list",
+    "inline",
+    "list",
+    "with bullets",
+    "with separators",
+    "align right",
+    "spacing",
+    "menu"
+  ],
+  "author": "Igor Przybysz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iprzybysz/bootstrap-inline-list/issues"
+  },
+  "homepage": "https://mdbootstrap.com/docs/standard/extended/inline-list/"
+}
